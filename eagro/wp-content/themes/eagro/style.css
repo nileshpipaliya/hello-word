@@ -1,0 +1,229 @@
+/*!
+Theme Name: eagro
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: eagro
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+eagro is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.service_grid .service_text p { color: #A8A8A8;margin-bottom: 5px; }
+.news_content a { color:#FF838F; }
+.news_content a:hover { text-decoration:underline !important;color:#FF838F !important }
+.service_grid h5 a:hover { text-decoration: underline !important; } 
+.submenu li.menu-item { padding: 0 }
+ul.submenu.metismenu ul.submenu.metismenu > li::after { display:none }
+.call-btn .contact_btn:hover { color: #6AD387; }
+.call-btn .contact_btn:hover::after { border-bottom:2px solid #6AD387 }
+.head_box:hover { background: #58C576;}
+.footer_menu_wrap ul li.current-menu-item a { color: #666666 !important; }
+.footer_menu_wrap ul li.current-menu-item a:hover { color:#6AD387 !important}
+.blog_inner_descriptoion ol { padding-left:20px }
+.blog_inner_descriptoion ol , .blog_inner_descriptoion ol li { list-style: decimal;}
+.blog_inner_descriptoion ol li::marker { color:#FF838F }
+.blog_inner_descriptoion ol li { padding-bottom:10px;font-weight: 500; }
+.blog_inner_descriptoion ol li:last-child { padding-bottom:0 } 
+.whyChooseDoctor_section .container { max-width: 1370px; }
+.slick-active + .slick-slide { z-index: 1; }
+.new_clinic_slider li.clinic_item.slick-slide { z-index: 0; position: relative; }
+.new_clinic_slider li.clinic_item.slick-slide.slick-active {  z-index: 1; }
+.new_clinic_slider li.clinic_item.slick-slide.slick-active.slick-current {  z-index: 2; }
+.call-btn a span { display: inline-block; }
+.call-btn .contact_btn:hover span { color: #6ad387; }
+.last_address { margin-top:45px; }
+.medisave_section .container { padding:0 }
+.image_block_img img {max-width: 946px; width: 100%; /*max-height: 659px;*/ height: 100%}
+
+.news_content ul:not(.news_gallery) li {position: relative;padding-left: 20px;}
+.news_content ul:not(.news_gallery)  li::before {content: "";position: absolute;top: 9px;left: 0;width: 6px;height: 6px;background: #ff838f;border-radius: 100%;background-size: cover;}
+.compare_treatment{background: #F4FBFF;}
+
+@media (max-width: 575px) {
+	.popup_grid_content .popup_grid {  max-width:100% }	
+ 	li.menu-item a {  color: #ff838f !important; }
+	.fax_num a { color: #666 !important;text-decoration:unset !important}
+	.call-btn span { padding-left:0}
+    .image_block_img img { max-height:766px;height: 100%  }
+}
+
+.our_clinic_location{background: #F8FEFF;}
+.our_clinic_location_content {max-width: 945px;width: 100%;}
+.clinic_main_row {background: #FFFFFF;box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);border-radius: 10px;padding: 60px;margin-bottom: 30px;}
+.clinic_main_row:last-child{margin-bottom: 0;}
+.our-clinics-box h6{font-size: 12px;line-height: 18px;letter-spacing: 0.2em;color: #6AD387;margin-bottom: 10px;}
+.our-clinics-box h4{margin-bottom: 15px;}
+.our-clinics-box .card-content{max-width: 337px;width: 100%;margin: 0;}
+.clinic_bold_text { font-weight: 800; }
+.our-clinics-box ul li{margin-bottom: 15px;display: table;width: 100%;font-weight: 500;font-size: 16px;line-height: 24px;color: #666666;}
+.our-clinics-box ul li:last-child{margin-bottom: 0;}
+.our-clinics-box ul li span.img-sec{font-weight: 800;width: 28px;}
+.our-clinics-box ul li span{display: table-cell;}
+.our-clinics-box ul li span b{font-weight: 500;}
+.our-clinics-box ul li .anchor a{display: inline-block;color: #6AD387;text-decoration: underline !important;text-underline-position: under;}
+.our-clinics-box iframe{max-width: 100%;width: 100%;max-height: 269px;border-radius: 10px;}
+
+/* Breast-surgery page */
+.treatment_option_section {background: #F4FBFF;}
+.treatment_option_section .heading_text {margin-bottom: 30px;}
+.treatment_option_section .heading_text h2 {color: #666666;margin-bottom: 30px;}
+.treatment_option_section .heading_text figure {display: -webkit-box;display: -ms-flexbox;display: flex;height: 5px;background-image: url("../image/line.svg");background-size: 100%;}
+.treatment_option_section .heading_text figure img {display: none;}
+.treatment_option_table th {background: #E3FFEB;max-width: 252px;min-width: 252px;width: 100%;font-weight: 900;padding: 12px 30px 13px;border-right: 1px solid #FFFFFF;}
+.treatment_option_table th:first-child {max-width: 190px;min-width: 190px;width: 100%;font-weight: 500;padding: 12px 20px 13px;}
+.treatment_option_table th:nth-child(4) {border-right: 0;}
+.treatment_option_table td {padding: 15px 30px;vertical-align: initial;border-right: 1px solid #E3F1F8;border-bottom: 1px solid #E3F1F8;max-width: 252px;min-width: 252px;width: 100%;font-weight: 500;}
+.treatment_option_table td:first-child {padding: 15px 20px;max-width: 190px;min-width: 190px;width: 100%;}
+.treatment_option_table td:nth-child(4) {border-right: none;}
+.treatment_option_table td h6 {font-weight: 900;font-size: 16px;line-height: 24px;color: #666666;}
+.treatment_option_table td h6:last-child {margin-bottom: 0;}
+.treatment_option_table td p {font-weight: 500;margin-bottom: 10px;}
+.treatment_option_table td p:last-child {margin-bottom: 0;}
+.treatment_option_table td p + p {margin-top: 20px;}
+.treatment_option_table td ul {padding-left: 17px;}
+.treatment_option_table td ul li {font-weight: 500;margin-bottom: 10px;list-style: disc;padding-left: 0;}
+.treatment_option_table td ul li::marker {color: #FF838F;}
+.treatment_option_table td ul li::before{display: none;}
+.treatment_option_table td ul li:last-child {margin-bottom: 0;}
+.treatment_option_table .full_view {border-top: 1px solid #E3F1F8 !important;}
+.treatment_option_table .blank_border {border: none;}
+.treatment_option_table .blank_bottom_border {border-bottom: none;}
+.treatment_option_table .blank_right_border {border-right: none;}
+.treatment_option_table tr {background: #F5FCFF;border-bottom: 1px solid #E3F1F8;}
+.treatment_option_table tr:nth-child(2n + 3) {background: #FFFFFF;}
+.treatment_option_table .bg-w {background: #FFFFFF !important;}
+.treatment_option_table .bg-c {background: #F5FCFF !important;}
+.pb-10 {padding-bottom: 10px !important;}
+.pt-10 {padding-top: 10px !important;}
+.pt-0 {padding-top: 0px !important;}  
+.p2-0 {padding-bottom: 0px !important;}
+/* End breast-surgery page */
+@media(max-width: 991px){
+    .treatment_option_table th:first-child {min-width: 150px;padding: 12px 15px;}
+      .treatment_option_table th {min-width: 190px;padding: 12px 15px;}
+      .treatment_option_table td:first-child {padding: 15px;min-width: 150px;}
+      .treatment_option_table td {padding: 15px;min-width: 190px;}
+  }
+@media (max-width: 767px) {
+	.our_clinic_location_content {max-width: 510px;}
+	.our-clinics-box {display: flex;}
+	.clinic_main_row {padding: 0;background: transparent;box-shadow: none;}
+	.our-clinics-box .card-content {max-width: 100%;padding: 40px;background: #FFFFFF;box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.05);border-radius: 10px;}
+	
+	.treatment_option_table {max-width: 100%;width: 100%;}
+      .treatment_option_table tr {background: #FFFFFF;}      
+		.treatment_option_table th:first-child {max-width: 100%;min-width: 100%;padding: 12px 15px;}
+      .treatment_option_section .heading_text h2 {margin-bottom: 15px;font-weight: 900;}
+      .treatment_option_table th, .treatment_option_table th:first-child {font-weight: 800;padding: 12px 20px;width: 100%;display: block;}
+      .treatment_option_table td, .treatment_option_table td:first-child {padding: 12px 20px;min-width: 100%;max-width: 100%;border: none !important;}
+      .treatment_option_table td h6 {color: #6AD387;margin-bottom: 5px;}
+      .treatment_option_table td p {margin-bottom: 5px;}
+      .treatment_option_table td ul li {margin-bottom: 5px;padding-left: 3px;}
+      .treatment_option_table tr.option_head {border: none;margin-top: 30px;display: block;}
+      .treatment_option_table tr.option_head:first-child{margin-top: 0;}
+}
+@media (max-width: 575px){
+	.our_clinic_location_content {max-width: 100%;}
+	.our-clinics-box iframe {max-height: 237px;}
+	.our-clinics-box .card-content {padding: 30px;}
+	.our-clinics-box h6 {margin-bottom: 5px;}
+	.our-clinics-box h4{font-weight: 900;}
+	.our-clinics-box ul li span b {font-weight: 800;}
+	.clinic_main_row {margin-bottom: 20px;}
+	.treatment_option_table th, .treatment_option_table th:first-child {font-size: 15px;line-height: 23px;font-weight: 900;}
+    .treatment_option_table td h6 {font-size: 15px;line-height: 23px;}
+	.compare_treatment{background: #F4FBFF;}
+	body span.triggerBtn{width: 15px; height: 15px; top: 15px; right: 0px;}
+	body .app-container .content-container .side-menu .navbar-default .metismenu li.menu-item-has-children.active > span.triggerBtn::after{top: 5px;}
+}
+.single-press.postid-751 .news_content span{
+	display: unset;
+}
+/*.switcher .selected{
+	background:unset !important;
+}
+.switcher .selected a {
+    border: unset !important;
+    width: auto!important;
+    padding: 0 !important;
+}
+.switcher .selected a:after {
+    right: auto !important;
+}*/
+.switcher .selected { background:unset !important}
+.switcher .option { position:absolute !important;background-color:#EBFCFF !important }
+.switcher .selected a:hover{ background:transparent !important}
+.switcher .selected a { border:unset !important;width:auto!important;padding:0 !important;}
+.switcher .selected a:after { right:auto !important }
+.switcher .option { background: #EBFCFF;border:0 !important;margin-top: 10px;width: 200px !important; }
+.switcher .option a { padding: 10px 5px !important; } 
+.switcher .option a:hover { background: #DBF8FC !important;color:#000 !important}
+html.translated-ltr .switcher { width: 220px; }
+html.translated-ltr .common_condition_direction { display:block; }
+html.translated-ltr .common_condition li h6{display:block;}
+.switcher{
+	width:138px!important;
+}
+@media (max-width: 575px){
+	.switcher { width: 100px !important; }
+	.switcher .selected a , .switcher .option a { font-size:14px}
+	.switcher .selected a{
+		color:transparent !important;
+		width:161px !important;
+	}
+	.switcher a img { width: 19px;height: 19px;}
+	.switcher .selected a:after { height: 19px !important; }
+	.call-btn a span{font-size:12px !important;}
+	.switcher{
+		width:109px!important;
+	}
+	.switcher .selected a:after{
+		right:10px !important;
+	}
+	.switcher.notranslate{
+		width:56px !important;
+		margin-right:0 !important;
+	}
+}
+.page-id-845 .SiteMenu ul, .page-id-829 .SiteMenu ul, .page-id-1086 .SiteMenu ul , .page-id-1082 .SiteMenu ul{
+	display: none !important;
+}
+.page-id-845 .switcher .selected, .page-id-829 .switcher .selected , .page-id-1086 .switcher .selected, .page-id-1082 .switcher .selected{
+	display: none;
+}
+.page-id-845 .navbar_expand_toggle,.page-id-829 .navbar_expand_toggle , .page-id-1086 .navbar_expand_toggle , .page-id-1082 .navbar_expand_toggle {
+	display: none !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.page-id-845 .footer_link_menu_wrap h6,.page-id-829 .footer_link_menu_wrap h6, .page-id-1086 .footer_link_menu_wrap h6, .page-id-1082 .footer_link_menu_wrap h6{
+	display: none !important;
+}
+.page-id-845 .footer_link_menu_wrap ul,.page-id-829 .footer_link_menu_wrap ul, .page-id-1086 .footer_link_menu_wrap ul , .page-id-1082 .footer_link_menu_wrap ul{
+	display: none !important;
+}
+.myonlycontact .our_clinic_location{
+	display: none;
+}
+.page-id-824  footer .menu-item-has-children ul.sub-menu.submenu.metismenu {
+    display: none;
+}
+.page-id-824 header .switcher.notranslate {
+	display:none;
+}
